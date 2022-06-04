@@ -1,0 +1,43 @@
+#container_welcome {
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero_welcome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#welcome {
+    width: auto;
+    padding: 20px;
+    font-family: 'regular';
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+}
+
+#hours {
+    font-size: 600%;
+    font-family: 'welcome_regular';
+}
+
+#getDay {
+    font-size: 200%;
+    font-family: 'welcome_regular';
+
+}
+
+#welcome h1 {
+    font-family: 'welcome_bold';
+    font-size: 200%;
+    margin: 0;
+    padding-top: 30px;
+}

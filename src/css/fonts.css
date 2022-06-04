@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'bold';
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'welcome_bold';
+    src: url(/fonts/Helvetica-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'welcome_regular';
+    src: url(/fonts/Helvetica.ttf);
+}

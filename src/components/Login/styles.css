@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero_login.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#login_box {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 20px;
+  border: 2px solid #e6e6e6;
+  border-radius: 20px;
+}
+
+#login_box h1 {
+  font-family: 'bold';
+  margin: 0;
+  color: #fff;
+}
+
+#login_box h2{
+  font-family: 'regular';
+  margin: 25px 0 60px 0;
+  font-size: 110%;
+  color: #fff;
+}
+
+#login-button {
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'bold';
+    font-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #272727;
+    background-color: #1d71eb;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #login-button img {
+    width: 30px;
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+  }
