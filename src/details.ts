@@ -6,9 +6,7 @@ export const app = <HTMLDivElement>document.querySelector<HTMLDivElement>('#app'
 const token = localStorage.getItem('token')
 
 if (token) {
-    console.log('has token')
+    renderDetails(app)
 } else {
     location.href = 'login.html'
 }
-
-renderDetails(app)

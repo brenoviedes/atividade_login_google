@@ -16,8 +16,6 @@ const onClick = () => {
 
             const {user} = result
 
-            const {metadata} = user
-
             const {displayName} = user
 
             localStorage.setItem('token', token || '')
@@ -32,11 +30,6 @@ const onClick = () => {
 
             const email = user.email
             localStorage.setItem('email', email || '')
-
-            console.log(user)
-
-            const accountCreate = metadata.creationTime
-            localStorage.setItem('accountCreate', accountCreate || '')
 
             if(token) {
                 location.href = 'index.html'
